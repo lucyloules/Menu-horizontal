@@ -14,17 +14,30 @@
   	list-style: none;
   	padding:0;
   	margin: 0;
+  	background: #2e2e2a;
+  	line-height:  40px;
+  	overflow: auto;
   }
 
   li{
   	/*outline: 1px solid red;*/
   	width: 100px;
-  	display: inline-block;
+  /*Se puede reemplazar display por float: left pero recordar 
+  que al contenedor padre debo agregar overflow:auto;, en éste caso ul.
+  	display: inline-block;*/
+  	float: left;
+  	text-align: center;
   }
   /*etiqueta a es inline, solo ocupa su espacio*/
   a{
-  	outline: 1px solid green;
+  	/*outline: 1px solid green;*/
   	text-decoration: none;
   	color: white;
   	display: block;
+  	color:#fff;
+  }
+
+  a:hover {
+	background:  #f9a91a;
+	color: #000;
   }
