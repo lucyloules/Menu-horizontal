@@ -1,0 +1,30 @@
+/*Color de Fondo #2e2e2a
+  Color de hover #f9a91a*/
+
+
+  body{
+  	font-family: sans-serif;
+  }
+
+  nav{
+  	/*outline: 1px solid yellow;*/
+  }
+  ul{
+  	/*outline: 1px solid blue;*/
+  	list-style: none;
+  	padding:0;
+  	margin: 0;
+  }
+
+  li{
+  	/*outline: 1px solid red;*/
+  	width: 100px;
+  	display: inline-block;
+  }
+  /*etiqueta a es inline, solo ocupa su espacio*/
+  a{
+  	outline: 1px solid green;
+  	text-decoration: none;
+  	color: white;
+  	display: block;
+  }
